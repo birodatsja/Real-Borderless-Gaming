@@ -1,4 +1,38 @@
-# SRWE
+Real Borderless Gaming
+
+<img width="1091" height="734" alt="Screenshot 2026-10-24 092620" src="https://github.com/user-attachments/assets/9b88dc34-c4fb-4ce4-a9d2-15e7b3f2c9cb" />
+
+Saved resolutions:
+- The Window area card now has Save resolution and Delete buttons next to the preset dropdown.
+- Save asks for a name, pre-filled with the size (for example 5440 × 1440). Leaving the size as the name shows just the size and its ratio.
+- Presets are shared by all games. The built-in list is now an editable list, so you can delete any of it.
+- Restore default presets... is the last entry in the dropdown if you delete something by accident. I also added a few ultrawide sizes (2560×1080, 3440×1440, 5120×1440).
+
+Process picker:
+- “Add game > From a running process...” now opens a new window in the same style as the main app, with a search box, app icons and a “Has profile” badge.
+- It shows only apps with windows by default. A switch turns that off.
+
+Right-click a process:
+- Add game and apply preset lists your saved presets. It creates the profile, centres that size on your primary display, and applies it to the running game right away.
+- For a game that already has a profile, the same entry reads “Apply resolution preset”.
+Right-clicking a game in the sidebar also offers Apply, Restore, Apply resolution preset and Delete.
+
+Ignore processes:
+- Right-click gives “Ignore” and “Un-ignore”. Ignored processes disappear from the picker.
+- The “Show ignored” switch brings them back with an “Ignored” badge, and “Un-ignore all (n)” clears the list. The list is remembered between runs.
+
+Dark and light themes:
+- The Theme button in the bottom bar cycles Dark, Light and System.
+
+Keyboard shortcuts:
+- Apply / Restore: it acts on the game you’re in, and uses the selected profile if the active window has none. If that profile is applied it restores it, otherwise it applies it.
+- Hide / show taskbar: it overrides the profile’s taskbar setting until you press it again, or until a fresh Apply, or Restore Desktop. If you hide the taskbar this way and the game closes, it stays hidden until you press the key again.
+- Restore Desktop: the existing emergency key, now rebindable.
+- To bind them, click a box and press the keys you want. Backspace clears it and Esc cancels. Keys need Ctrl, Alt or Shift (F-keys can go alone), and two actions can’t share a shortcut.
+- Defaults are Ctrl+Alt+B, Ctrl+Alt+T and Ctrl+Alt+Shift+R. If another program already uses a key, the status line tells you which shortcut to change.
+
+
+INFO FROM SRWE APP:
 Simple Runtime Window Editor (SRWE) - a program that allows you to pick a running
 application and manipulate size, position, styles of its main/child windows.
 SRWE was built to maintain games that run in Windowed-mode. For example,
