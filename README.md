@@ -1,4 +1,4 @@
-# SRWE
+#Real Borderless Gaming is a fork off SRWE  
 Simple Runtime Window Editor (SRWE) - a program that allows you to pick a running
 application and manipulate size, position, styles of its main/child windows.
 SRWE was built to maintain games that run in Windowed-mode. For example,
